@@ -10,6 +10,22 @@ package chat.app;
  */
 public class ChatApp {
 
+    private String username;
+    private String password;
+    private String cellNumber;
+    
+    //user name validation
+    
+    public String checkUsername(String username){
+        //must contain underscore AND <= 5 chars
+        if (username.contains("_") && username.length() <=5) {
+        
+        }
+        
+    
+            
+            
+            
     /**
      * @param args the command line arguments
      */
